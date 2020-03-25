@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Implementation of Audio Effect Generator in FPGA"
+date:   2015-02-03
+image: /images/njst-2015.png
+categories: research
+author: "Shaswot Shresthamali"
+authors: "Sujit Chhetri, Bikash Poudel, Sandesh Ghimire, <strong>Shaswot Shresthamali</strong>, and Dinesh Sharma"
+venue: "Nepal Journal of Science and Technology 15, no. 1 (February 3, 2015): 89-98"
+link: https://www.nepjol.info/index.php/NJST/article/view/12022
+slides:
+code:
+video: https://www.youtube.com/watch?v=3Ldh6AGBTiE
+---
+This paper describes the theory and implementation of audio effects such as echo, distortion and pitch-shift in Field Programmable Gate Array (FPGA). At first the mathematical formulation for generation of such effects is explained and then the algorithm is described for its implementation in FPGA using Very high speed integrated circuit hardware descriptive language (VHDL). The digital system being designed, which is synthesizable and reconfigurable, offers a great flexibility and scalability in designing and prototyping in FPGAs. The system is divided into three HDL blocks, each for echo, distortion, and pitch-shift effect generation, which are multiplexed in order to share the common ADC and DAC. The audio effect generator designed in this paper was successfully implemented in Spartan-3E FPGA utilizing the resources available effectively. There has been tremendous research being carried out in the field of IP core. Efficient IP cores designed to carry out digital signal processing are implemented in every modern device using configurable logics. This trend hasn’t yet been realized in Nepal. Through the design and implementation of audio effect generator, this paper also aims at bringing the field of IP core development to limelight among scholars of Nepal.

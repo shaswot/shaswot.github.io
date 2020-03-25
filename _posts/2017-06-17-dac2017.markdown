@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "Adaptive power management in solar energy harvesting sensor node using reinforcement learning"
+date:   2017-6-17
+image: /images/dac-2017.png
+categories: research
+author: "Shaswot Shresthamali"
+authors: "<strong>Shaswot Shresthamali</strong>, Masaaki Kondo, and Hiroshi Nakamura"
+venue: "54th Design and Automation Conference (DAC 2017)"
+link:
+slides:
+poster: /pdfs/dac-2017-poster.pdf
+code:
+---
+In the near future, Internet of Things (IoT) will consist of billions and trillions of nodes. Energy Harvesting Wireless Sensor Nodes (EHWSN) play a critical role in forming a
+sustainable, maintenance-free network of perpetually communicating autonomous devices for the IoT infrastructure. Energy autonomy (neutrality) of the sensor nodes
+needs to be ensured for perpetual operation. Here we consider a case of a solar energy harvesting sensor node.
