@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "An Introduction to Parallel Processing Using FPGAs"
+date:   2014-11-01
+image: /images/kec-2014.png
+categories: research
+author: "Shaswot Shresthamali"
+venue: "KEC Journal of Science and Engineering (November 2014)"
+link: /pdfs/kec-2014.pdf
+slides:
+code:
+video:
+---
+This paper discusses how FPGAs offer true hardware parallelism and deliberates on
+some areas which benefit from FPGAs’ parallel processing such as DSP (Digital Signal Processing), Data Acquisition and
+Processing, Text Parsing and Image/Video Processing. To demonstrate the possibility and the consequent advantages of
+parallel processing, a matrix multiplier was designed for a Spartan-3E FPGA with the help of High Level Synthesis (HLS)
+tools. Two possible solutions, with and without parallel processing, were obtained which are briefly discussed here.

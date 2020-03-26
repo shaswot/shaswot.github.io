@@ -27,31 +27,32 @@
               <h1>
                 Shaswot Shresthamali
               </h1>
-              <p>I am a doctoral student in my second year (D2) at <a href="http://www.hal.ipc.i.u-tokyo.ac.jp/index-e.html">Nakamura-Kondo Laboratory</a>,
-                in the <a href="https://www.i.u-tokyo.ac.jp/index_e.shtml">Graduate School of Information Science and Technology</a>,
-                <a href="https://www.u-tokyo.ac.jp/en/index.html">The University of Tokyo</a>.
+              <p>I am a doctoral student in my second year (D2) in the
+                 <a href="https://www.i.u-tokyo.ac.jp/index_e.shtml">Graduate School of
+                   Information Science and Technology</a>, The University of Tokyo.
+                I am a part of the <a href="http://www.hal.ipc.i.u-tokyo.ac.jp/index-e.html">Nakamura-Kondo Laboratory</a>.
               </p>
               <p>
-                My supervisor is <a href="http://www.hal.ipc.i.u-tokyo.ac.jp/~nakamura/index-e.html"> Prof. Hiroshi Nakmaura (中村　宏)</a>. I currently hold
-                a <a href="https://www.jsps.go.jp/english/index.html">JSPS </a> Research Fellowship (DC1).
+                My supervisor is <a href="http://www.hal.ipc.i.u-tokyo.ac.jp/~nakamura/index-e.html"> Prof. Hiroshi Nakmaura (中村　宏)</a>.
+                <!-- I have collaborated extensively with <a href="http://www.hal.ipc.i.u-tokyo.ac.jp/~kondo/index.html">Assoc. Prof. Masaaki Kondo (近藤　正章) </a>,  -->
+                <!-- who was also my co-supervisor in my Master's program with Prof. Nakamura. -->
+                <br>
+                I am currently a <a href="https://www.jsps.go.jp/english/index.html">JSPS </a> Research Fellow (DC1).
               </p>
               <p>
 
-                I was a lecturer in <a href="http://sagarmatha.edu.np/">Sagarmatha Engineering College</a>, Nepal from 2012 to 2014.
-                I taught courses for undergraduate students of electronics and computer engineering.
-                I also spearheaded the research division in the college and established an FPGA Research Laboratory under the Xilinx University Program
-                in collaboration with Deepesh Man Shakya, <a href="https://www.xilinx.com/">Xilinx</a>, Ireland.
+                I was a lecturer in <a href="http://sagarmatha.edu.np/">Sagarmatha Engineering College (SEC)</a>, Nepal from 2012 to 2014.
+                In addition to my teaching responsibilites, I also spearheaded the research division in the college.
               </p>
               <p>
-                I have an Master's Degree in Information Physics and Computing from the
-                <a href="https://www.i.u-tokyo.ac.jp/index_e.shtml">Graduate School of Information Science and Technology</a>, The University of Tokyo</a> (2016-2018).
+                I have an Master's Degree in Information Physics and Computing from The University of Tokyo</a> (2016-2018).
               </p>
               <p>
-                I have a Bachelor's Degree in Electronics and Communication Engineering (with specialization in Digital Signal Processing)
+                I received my Bachelor's Degree in Electronics and Communication Engineering (with specialization in Digital Signal Processing)
                 from <a href="http://doece.pcampus.edu.np/">Tribhuvan University</a>, Nepal (2008-2012).
               </p>
               <p>
-                You can reach me at shaswot[at]hal.ipc.i.u-tokyo.ac.jp
+                You can reach me at shaswot[AT]hal.ipc.i.u-tokyo.ac.jp
               </p>
               <p style="text-align:center">
                 <a href="https://github.com/shaswot">GitHub</a> &nbsp;/&nbsp;
@@ -70,10 +71,41 @@
             <td style="padding:2.5%;width:100%;vertical-align:middle">
               <h2>Research</h2>
               <p>
-                I am presently researching on autonomous power management of energy-harvesting wireless sensor nodes using reinforcement learning.
+                My research focus is on computationally feasible methods to learn underlying random processes
+                from limited number of (possibly noisy) samples. What are the theoretical limits to such methods and their approximations?
+
+
+                <!-- I am interested in self-adaptive learning systems and their ability to learn general functions to deal with
+                dynamic -->
                 <br>
-                My research interests include a mix of deep learning, cognitive science and robotics.
+                <br>
+                Currently, I am researching on learning-based methods for autonomous power management
+                of energy-constrained devices such as energy-harvesting wireless sensor nodes.
+
+                Consquently, I am involved in reinforcement learning and its relation to neural network function approximation,
+                off-policy learning and distributed learning.
               </p>
+              <p>
+                During my lectureship in SEC, I kickstarted a research initiative into FPGAs and HDL programming,
+                the first of its kind in Nepal. I established <a href="https://www.facebook.com/XRLab">Xilinx Research Laboratory</a>
+                in collaboration with Deepesh Man Shakya of Xilinx Inc., Ireland. I also coordinated introductory FPGA and HDL training
+                sessions for electronics and computer engineering undergraduates with
+                <a href="https://www.linkedin.com/in/sujito/">Sujit Chhetri</a>,
+                <a href="http://www.sandeshgh.com/">Sandesh Ghimire</a>,
+                <a href="https://www.linkedin.com/in/bpoudel7/">Bikash Poudel</a> and
+                <a href="https://scholar.google.com/citations?user=tKbBTUIAAAAJ&hl=en">Prasanna Kansakar</a>.
+              </p>
+              <br>
+              <br>
+              <h2>Publications</h2>
+              <p>
+                My most recent publications are focused on applying reinforcement learning (RL) for autonomous power
+                management of energy-harvesting wireless sensor nodes.
+              </p>
+              <p>
+                The list also contains some of my published research in FPGAs that I conducted in Sagarmatha Engineering College.
+              </p>
+
             </td>
           </tr>
         </table>
@@ -83,7 +115,7 @@
           {% for cat in post.categories %}
           {% if cat == 'research' %}
           <tr>
-            <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
+            <td style="padding:2.5%;width:40%;vertical-align:middle;min-width:120px">
               <img src="{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
             </td>
             <td style="padding:2.5%;width:75%;vertical-align:middle">
