@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Multi-objective Reinforcement Learning for Energy Harvesting Wireless Sensor Nodes (accepted)"
+date:   2021-12-21
+image: /images/mcsoc-2019.png
+categories: research
+author: "Shaswot Shresthamali"
+authors: "<strong>Shaswot Shresthamali</strong>, Masaaki Kondo, and Hiroshi Nakamura"
+venue: "14th IEEE International Symposium on Embedded Multicore/Many-core Systems-on-Chip, MCSoC (2021)"
+link: 
+slides: 
+code:
+---
+Modern Energy Harvesting Wireless Sensor Nodes (EHWSNs) need to intelligently allocate their limited and unreliable energy budget among multiple tasks to ensure long-term uninterrupted operation. Traditional solutions are ill-equipped to deal with multiple objectives and execute a posteriori tradeoffs. We propose a general Multi-objective Reinforcement Learning (MORL) framework for Energy Neutral Operation (ENO) of EHWSNs. Our proposed framework consists of a novel Multi-objective Markov Decision Process (MOMDP) formulation and two novel MORL algorithms. Using our framework, EHWSNs can learn policies to maximize multiple task-objectives and perform dynamic runtime tradeoffs. The high computation and learning costs, usually associated with powerful MORL algorithms, can be avoided by using our comparatively less resource-intensive MORL algorithms. We evaluate our framework on a general single-task and dual-task EHWSN system model through simulations and show that our MORL algorithms can successfully tradeoff between multiple objectives at runtime.
