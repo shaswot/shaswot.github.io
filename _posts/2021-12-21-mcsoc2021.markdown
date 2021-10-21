@@ -2,7 +2,7 @@
 layout: post
 title:  "Multi-objective Reinforcement Learning for Energy Harvesting Wireless Sensor Nodes (accepted)"
 date:   2021-12-21
-image: /images/mcsoc-2019.png
+image: /images/mcsoc-2021.png
 categories: research
 author: "Shaswot Shresthamali"
 authors: "<strong>Shaswot Shresthamali</strong>, Masaaki Kondo, and Hiroshi Nakamura"
