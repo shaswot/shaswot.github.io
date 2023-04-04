@@ -7,9 +7,7 @@ categories: research
 author: "Shaswot Shresthamali"
 venue: "KEC Journal of Science and Engineering (November 2014)"
 link: /pdfs/kec-2014.pdf
-slides:
-code:
-video:
+paper: /pdfs/kec-2014.pdf
 ---
 This paper discusses how FPGAs offer true hardware parallelism and deliberates on
 some areas which benefit from FPGAs’ parallel processing such as DSP (Digital Signal Processing), Data Acquisition and

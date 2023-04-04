@@ -10,6 +10,8 @@ venue: "International Conference on Embedded Software (EMSOFT 2017)"
 link: https://dl.acm.org/doi/10.1145/3126495
 slides: /pdfs/emsoft-2017-slides.pdf
 poster: /pdfs/emsoft-2017-poster.pdf
+paper: /pdfs/emsoft-2017-paper.pdf
+video: 
 code:
 ---
 In this paper, we present an adaptive power manager for solar energy harvesting sensor nodes. We use a simplified model consisting of a solar panel, an ideal battery and a general sensor node with variable duty cycle. Our power manager uses Reinforcement Learning (RL), specifically SARSA(λ) learning, to train itself from historical data. Once trained, we show that our power manager is capable of adapting to changes in weather, climate, device parameters and battery degradation while ensuring near-optimal performance without depleting or overcharging its battery. Our approach uses a simple but novel general reward function and leverages the use of weather forecast data to enhance performance. We show that our method achieves near perfect energy neutral operation (ENO) with less than 6% root mean square deviation from ENO as compared to more than 23% deviation that occur when using other approaches.

@@ -27,12 +27,12 @@
               <h1>
                 Shaswot Shresthamali
               </h1>
-              <p>I am a postdoctoral project researcher in <a href="https://www.acsl.ics.keio.ac.jp">Kondo Laboratory</a> at the <a href="https://www.st.keio.ac.jp/en/">Faculty of Science and Technology</a>, Keio University. I am currently working in two projects with <a href="https://sites.google.com/view/kondo-lab/kondo">Prof. Masaaki Kondo (近藤　正章).</a>
+              <p>I am a Specially Appointed Assistant Professor (特任助教) in <a href="https://www.acsl.ics.keio.ac.jp">Kondo Laboratory</a> at the <a href="https://www.st.keio.ac.jp/en/">Faculty of Science and Technology</a>, Keio University. I am currently involved in projects related to Computer Architecture and Quantum Computing with <a href="https://sites.google.com/view/kondo-lab/kondo">Prof. Masaaki Kondo (近藤　正章).</a>
               </p>
               <p>
 				I received my doctorate degree from the <a href="https://www.i.u-tokyo.ac.jp/index_e.shtml">Graduate School of Informations Science and Technology</a>, The University of Tokyo under the supervision of <a href="http://www.hal.ipc.i.u-tokyo.ac.jp/~nakamura/index-e.html"> Prof. Hiroshi Nakmaura (中村　宏)</a>.
               <p>
-                You can find my CV <a href="/pdfs/cv_master.pdf">here</a>. 
+                You can find my CV <a href="/pdfs/MY_CV_Master.pdf">here</a>. 
               </p>
               <p> 
                 I can be reached at shaswot[AT]acsl.ics.keio.ac.jp
@@ -54,53 +54,109 @@
             <td style="padding:2.5%;width:100%;vertical-align:middle">
               <h2>Research</h2>
               <p>
-				I am currently researching on novel architectures and techniques for accelerating Deep Neural Networks (DNN) using mixed precision. I am also involved in project related to integrating High-Performance Computing (HPC) with Quantum Computing (QC).
+				I am currently researching on novel techniques and architectures to accelerate Deep Neural Networks (DNN) by leveraging reduced mixed precision. I am also a part of the QC-HPC Group of the <a href="https://sqai.jp/">SQAI</a> project where I am researching on integration of High Performance Computing (HPC) systems with Quantum Computers (QC).
 			  </p>
 			  <p>
-				My doctoral research deals with RL-based methods for energy scheduling in Energy Harvesting Wireless Sensor Nodes. The focus is on applied RL and its relation to <b>neural network function approximation</b>, <b>off-policy learning</b> and <b>distributed learning</b>. 
+			  My doctoral research deals with RL-based methods for energy scheduling in Energy Harvesting Wireless Sensor Nodes. The focus is on applied RL and its relation to <b>neural network function approximation</b>, <b>off-policy learning</b> and <b>distributed learning</b>. 
 			  </p>
-			  <p>
-				My general research focus is on computationally feasible learning-based methods that learn from a
-                limited number of (possibly noisy) samples. I am interested in investigating the limits
-                of such methods and their approximations from a theoretical and practical standpoint.
-			  </p>
+			  <!--
+              <p>
+                During my lectureship in SEC, I kickstarted a research initiative into FPGAs and HDL programming,
+                the first of its kind in Nepal. I established <a href="https://www.facebook.com/XRLab">Xilinx Research Laboratory (XRLab)</a>
+                in collaboration with Deepesh Man Shakya of Xilinx Inc., Ireland. I also coordinated introductory FPGA and HDL training
+                sessions for electronics and computer engineering undergraduates with
+                <a href="https://www.linkedin.com/in/sujito/">Sujit Chhetri</a>,
+                <a href="http://www.sandeshgh.com/">Sandesh Ghimire</a>,
+                <a href="https://www.linkedin.com/in/bpoudel7/">Bikash Poudel</a> and
+                <a href="https://scholar.google.com/citations?user=tKbBTUIAAAAJ&hl=en">Prasanna Kansakar</a>.
+              </p>
+			  -->
               <br>
               <br>
               <h2>Publications</h2>
-              <p>
-                My most recent publication is about minimizing DNN model accuracy degradation in the presence of hardware faults and errors that may result due to marginal operation (or physical degradation). Sometimes we might want to purposefully drive these accelerators to operate marginally to conserve energy or reduce latency (think IoT edge applications) even at the expense of (minor) model accuracy degradation.
-              </p>
             </td>
           </tr>
         </table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-		
-		 <tr>
+
+          
+          
+          
+          <tr>
+            <td style="padding:2.5%;width:40%;vertical-align:middle;min-width:120px">
+              <img src="/images/ispa-2022.png" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+            </td>
+            <td style="padding:2.5%;width:75%;vertical-align:middle">
+              <h3>FAWS: Fault-Aware Weight Scheduler for DNN Computations in Heterogeneous and Faulty Hardware</h3>
+              <br>
+              <strong>Shaswot Shresthamali</strong>, Yuan He, Masaaki Kondo
+
+              <br>
+              <em>2022 IEEE Intl Conf on Parallel & Distributed Processing with Applications, Big Data & Cloud Computing, Sustainable Computing & Communications, Social Computing & Networking (ISPA/BDCloud/SocialCom/SustainCom)</em>, 2022
+              <br>
+              
+              
+              <a href="https://doi.org/10.1109/ISPA-BDCloud-SocialCom-SustainCom57177.2022.00033">link</a> /
+              
+              
+              <a href="https://youtu.be/YZ3uyAVheWA">video</a> /
+              
+              
+              
+              
+              <a href="/pdfs/ispa-2022-slides.pdf">slides</a> /
+              
+              
+              <a href="/pdfs/ispa-2022-paper.pdf">paper</a> /
+              
+              <p></p>
+              <p>The idea of using inexact computation for overprovisioned DNNs (Deep Neural Networks) to decrease power and la-tency at the cost of minor accuracy degradation has become very popular. However, there is still no general method to schedule DNN computations on a given hardware platform to effectively implement this idea without loss in computational efficiency. Most contemporary methods require specialized hardware, ex-tensive retraining and hardware-specific scheduling schemes. We present FAWS: Fault-Aware Weight Scheduler for scheduling DNN computations in heterogeneous and faulty hardware. Given a trained DNN model and a hardware fault profile, our scheduler is able to recover significant accuracy during inference even at high fault rates. FAWS schedules the computations such that the low priority ones are allocated to inexact hardware. This is achieved by shuffling (exchanging) the rows of the matrices. The best shuffling order for a given DNN model and hardware fault profile is determined using Genetic Algorithms (GA). We simulate bitwise errors on different model architectures and datasets with different types of fault profiles and observe that FAWS can recover up to 30% of classification accuracy even at high fault rates (whichcorrespond to approximately 50% power savings).</p>
+
+
+            </td>
+          </tr>
+          
+          
+          
+          
+          
+          <tr>
             <td style="padding:2.5%;width:40%;vertical-align:middle;min-width:120px">
               <img src="/images/mcsoc-2021.png" alt="project image" style="width:auto; height:auto; max-width:100%;" />
             </td>
             <td style="padding:2.5%;width:75%;vertical-align:middle">
-              <h3>Multi-objective Reinforcement Learning for Energy Harvesting Wireless Sensor Nodes (accepted)</h3>
+              <h3>Multi-objective Reinforcement Learning for Energy Harvesting Wireless Sensor Nodes</h3>
               <br>
               <strong>Shaswot Shresthamali</strong>, Masaaki Kondo, and Hiroshi Nakamura
 
               <br>
-              <em>IEEE 14th International Symposium on Embedded Multicore/Many-core Systems-on-Chip (MCSoC).</em>, 2021
+              <em>14th IEEE International Symposium on Embedded Multicore/Many-core Systems-on-Chip, MCSoC (2021)</em>, 2021
               <br>
               
-              <!--
-              <a href="https://ieeexplore.ieee.org/document/8988718">link</a> /
-                   
-              <a href="/pdfs/iccd-2019-slides.pdf">slides</a> /
-               -->
+              
+              <a href="https://doi.org/10.1109/MCSoC51149.2021.00022">link</a> /
+              
+              
+              <a href="https://youtu.be/YHVP8ImDrnY">video</a> /
+              
+              
+              
+              
+              <a href="/pdfs/mcsoc-2021-slides.pdf">slides</a> /
+              
+              
+              <a href="/pdfs/mcsoc-2021-paper.pdf">paper</a> /
+              
               <p></p>
               <p>Modern Energy Harvesting Wireless Sensor Nodes (EHWSNs) need to intelligently allocate their limited and unreliable energy budget among multiple tasks to ensure long-term uninterrupted operation. Traditional solutions are ill-equipped to deal with multiple objectives and execute a posteriori tradeoffs. We propose a general Multi-objective Reinforcement Learning (MORL) framework for Energy Neutral Operation (ENO) of EHWSNs. Our proposed framework consists of a novel Multi-objective Markov Decision Process (MOMDP) formulation and two novel MORL algorithms. Using our framework, EHWSNs can learn policies to maximize multiple task-objectives and perform dynamic runtime tradeoffs. The high computation and learning costs, usually associated with powerful MORL algorithms, can be avoided by using our comparatively less resource-intensive MORL algorithms. We evaluate our framework on a general single-task and dual-task EHWSN system model through simulations and show that our MORL algorithms can successfully tradeoff between multiple objectives at runtime.</p>
-			 
-			
+
             </td>
           </tr>
-		  
- 
+          
+          
+          
+          
+          
           <tr>
             <td style="padding:2.5%;width:40%;vertical-align:middle;min-width:120px">
               <img src="/images/iccd-2019.png" alt="project image" style="width:auto; height:auto; max-width:100%;" />
@@ -116,8 +172,17 @@
               
               
               <a href="https://ieeexplore.ieee.org/document/8988718">link</a> /
-                   
+              
+              
+              <a href="https://youtu.be/rs7rpDHKMug">video</a> /
+              
+              
+              
+              
               <a href="/pdfs/iccd-2019-slides.pdf">slides</a> /
+              
+              
+              <a href="/pdfs/iccd-2019-paper.pdf">paper</a> /
               
               <p></p>
               <p>Energy Harvesting Wireless Sensor Nodes (EHWSNs) require adaptive energy management policies for uninterrupted perpetual operation in their physical environments. Contemporary online Reinforcement Learning (RL) solutions take an unrealistically long time exploring the environment to converge on working policies. Our work accelerates learning by partitioning the state-space for simultaneous exploration by multiple agents. We achieve this by using a novel coordinated e-greedy method and implement it via Distributed RL (DiRL) in an EHWSN network. Our simulation results show a four-fold increase in state-space penetration and reduction in time to achieve optimal operation by an order of magnitude (50x). Moreover, we also propose methods to reduce instances of disastrous outcomes associated with learning and exploration. This translates to reducing the downtimes of the nodes in simulations corresponding to a real-world scenario by one thirds.</p>
@@ -153,6 +218,9 @@
               
               <a href="/pdfs/emsoft-2017-slides.pdf">slides</a> /
               
+              
+              <a href="/pdfs/emsoft-2017-paper.pdf">paper</a> /
+              
               <p></p>
               <p>In this paper, we present an adaptive power manager for solar energy harvesting sensor nodes. We use a simplified model consisting of a solar panel, an ideal battery and a general sensor node with variable duty cycle. Our power manager uses Reinforcement Learning (RL), specifically SARSA(λ) learning, to train itself from historical data. Once trained, we show that our power manager is capable of adapting to changes in weather, climate, device parameters and battery degradation while ensuring near-optimal performance without depleting or overcharging its battery. Our approach uses a simple but novel general reward function and leverages the use of weather forecast data to enhance performance. We show that our method achieves near perfect energy neutral operation (ENO) with less than 6% root mean square deviation from ENO as compared to more than 23% deviation that occur when using other approaches.</p>
 
@@ -185,6 +253,9 @@
               
               <a href="/pdfs/swopp-2017-slides.pdf">slides</a> /
               
+              
+              <a href="">paper</a> /
+              
               <p></p>
               <p>太陽光発電などの環境発電により駆動するセンサノードでは，バッテリ切れによるノードダウンを防ぎつつ，発電電力に応じてセンシング間隔を調整するなどの電力制御を行う必要がある．本稿では，環境発電駆動センサノードとして，太陽光パネル，バッテリー，汎用のセンサノードデバイスからなる単純なシステムモデルを仮定し，機械学習の一手法である強化学習を用いた適応的な電力管理手法の比較評価を行う．強化学習を用いることで，天候やバッテリの劣化などの環境の変化に対して適応的に電力管理を行うことが可能になると期待される．比較に際しては，SARSA 学習と Q 学習アルゴリズムを用い，また適正度の履歴の有無による強化学習手法を評価する．評価の結果，SARSA (λ) 手法が他の手法に比べて優れた性能を達成できることがわかった．</p>
 
@@ -213,6 +284,7 @@
               
               
               <a href="/pdfs/dac-2017-poster.pdf">poster</a> /
+              
               
               
               <p></p>
@@ -249,6 +321,9 @@ needs to be ensured for perpetual operation. Here we consider a case of a solar 
               
               <a href="/pdfs/etnet-2017-slides.pdf">slides</a> /
               
+              
+              <a href="">paper</a> /
+              
               <p></p>
               <p>太陽光発電などの環境発電により駆動するセンサノードでは，バッテリ切れによるノードダウンを防ぎつつ，発電電力に応じてセンシング間隔を調整するなどの電力制御を行う必要がある．本稿では，機械学習の一手法である強化学習を用い，発電電力量や天気予報の情報をもとにセンサノードのセンシング間隔を適応的に制御する手法を提案し，気象データを用いた評価を行う．評価の結果，提案手法は設置場所の変化などの運用環境の変化にも自動的に順応し高い性能を達成できることがわかった．</p>
 
@@ -281,6 +356,9 @@ needs to be ensured for perpetual operation. Here we consider a case of a solar 
               
               
               
+              
+              <a href="">paper</a> /
+              
               <p></p>
               <p>This paper describes the theory and implementation of audio effects such as echo, distortion and pitch-shift in Field Programmable Gate Array (FPGA). At first the mathematical formulation for generation of such effects is explained and then the algorithm is described for its implementation in FPGA using Very high speed integrated circuit hardware descriptive language (VHDL). The digital system being designed, which is synthesizable and reconfigurable, offers a great flexibility and scalability in designing and prototyping in FPGAs. The system is divided into three HDL blocks, each for echo, distortion, and pitch-shift effect generation, which are multiplexed in order to share the common ADC and DAC. The audio effect generator designed in this paper was successfully implemented in Spartan-3E FPGA utilizing the resources available effectively. There has been tremendous research being carried out in the field of IP core. Efficient IP cores designed to carry out digital signal processing are implemented in every modern device using configurable logics. This trend hasn’t yet been realized in Nepal. Through the design and implementation of audio effect generator, this paper also aims at bringing the field of IP core development to limelight among scholars of Nepal.</p>
 
@@ -310,6 +388,9 @@ needs to be ensured for perpetual operation. Here we consider a case of a solar 
               
               
               
+              
+              
+              <a href="/pdfs/kec-2014.pdf">paper</a> /
               
               <p></p>
               <p>This paper discusses how FPGAs offer true hardware parallelism and deliberates on
@@ -367,6 +448,14 @@ tools. Two possible solutions, with and without parallel processing, were obtain
           
           
           
+          
+          
+          
+          
+          
+          
+          
+          
         </table>
         <br>
         <br>
@@ -382,6 +471,14 @@ tools. Two possible solutions, with and without parallel processing, were obtain
         </table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
 
+          
+          
+          
+          
+          
+          
+          
+          
           
           
           

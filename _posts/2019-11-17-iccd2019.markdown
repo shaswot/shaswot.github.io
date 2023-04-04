@@ -9,6 +9,8 @@ authors: "<strong>Shaswot Shresthamali</strong>, Masaaki Kondo, and Hiroshi Naka
 venue: "37th IEEE International Conference on Computer Design, ICCD (2019)"
 link: https://ieeexplore.ieee.org/document/8988718
 slides: /pdfs/iccd-2019-slides.pdf
+paper: /pdfs/iccd-2019-paper.pdf
+video: https://youtu.be/rs7rpDHKMug
 code:
 ---
 Energy Harvesting Wireless Sensor Nodes (EHWSNs) require adaptive energy management policies for uninterrupted perpetual operation in their physical environments. Contemporary online Reinforcement Learning (RL) solutions take an unrealistically long time exploring the environment to converge on working policies. Our work accelerates learning by partitioning the state-space for simultaneous exploration by multiple agents. We achieve this by using a novel coordinated e-greedy method and implement it via Distributed RL (DiRL) in an EHWSN network. Our simulation results show a four-fold increase in state-space penetration and reduction in time to achieve optimal operation by an order of magnitude (50x). Moreover, we also propose methods to reduce instances of disastrous outcomes associated with learning and exploration. This translates to reducing the downtimes of the nodes in simulations corresponding to a real-world scenario by one thirds.
