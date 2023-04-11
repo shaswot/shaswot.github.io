@@ -8,7 +8,7 @@ author: "Shaswot Shresthamali"
 authors: "<strong>Shaswot Shresthamali</strong>, Masaaki Kondo, and Hiroshi Nakamura"
 venue: "37th IEEE International Conference on Computer Design, ICCD (2019)"
 link: https://ieeexplore.ieee.org/document/8988718
-video: https://youtu.be/rs7rpDHKMug
+video: https://youtu.be/qiq30mJaV68
 slides: /pdfs/iccd-2019-slides.pdf
 paper: /pdfs/iccd-2019-paper.pdf
 code:
