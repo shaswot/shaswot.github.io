@@ -5,3 +5,8 @@ The website design was modifed by [Leonid Keselman](https://leonidk.com/) from t
 This repo is a fork from the webpage git repo of [Leonid Keselman](https://github.com/leonidk/new_website).
 
 **You are free to use template for your own purposes**, but please respect copyright for all the images/content in my `images`, `pdfs`, `_posts` folders. 
+
+Gemfile Contents
+source 'https://rubygems.org'
+gem 'github-pages', group: :jekyll_plugins
+
