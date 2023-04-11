@@ -10,7 +10,7 @@ venue: "2022 IEEE Intl Conf on Parallel & Distributed Processing with Applicatio
 link: https://doi.org/10.1109/ISPA-BDCloud-SocialCom-SustainCom57177.2022.00033
 slides: /pdfs/ispa-2022-slides.pdf
 code:
-video: 
+video: https://youtu.be/gIsWqzFxoB8
 paper: /pdfs/ispa-2022-paper.pdf
 ---
 The idea of using inexact computation for overprovisioned DNNs (Deep Neural Networks) to decrease power and la-tency at the cost of minor accuracy degradation has become very popular. However, there is still no general method to schedule DNN computations on a given hardware platform to effectively implement this idea without loss in computational efficiency. Most contemporary methods require specialized hardware, ex-tensive retraining and hardware-specific scheduling schemes. We present FAWS: Fault-Aware Weight Scheduler for scheduling DNN computations in heterogeneous and faulty hardware. Given a trained DNN model and a hardware fault profile, our scheduler is able to recover significant accuracy during inference even at high fault rates. FAWS schedules the computations such that the low priority ones are allocated to inexact hardware. This is achieved by shuffling (exchanging) the rows of the matrices. The best shuffling order for a given DNN model and hardware fault profile is determined using Genetic Algorithms (GA). We simulate bitwise errors on different model architectures and datasets with different types of fault profiles and observe that FAWS can recover up to 30% of classification accuracy even at high fault rates (whichcorrespond to approximately 50% power savings).
