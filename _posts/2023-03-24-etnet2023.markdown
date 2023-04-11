@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "局所グラフ情報を用いた強化学習によるAGVの経路スケジューリング手法の検討 (A study of reinforcemtent learning-based AGV route scheduling using local graph information)"
+date:   2023-03-24
+image: /images/etnet-2023.png
+categories: research
+author: "杉本 寛直"
+authors: "杉本 寛直, <strong>シュレスタマリ サソット</strong>, 近藤 正章 "
+venue: "研究報告組込みシステム（EMB）, 2023-EMB-62(31), 1-6" 
+link: http://id.nii.ac.jp/1001/00225429/
+slides:
+code:
+---
+本稿では，複数台の無人搬送車 (AGV) を実環境で使用する際に必要な経路計画を強化学習により行う手法を検討する．特に，AGV 間の行動や経路情報となる局所グラフの情報を利用し，かつ入力次元の抑制のため各 AGV の行動可能範囲に限定して抽出したノード情報を用いた強化学習によるスケジューリング手法を提案する．本手法により，全ノードの情報を利用するよりも実環境に近い問題設定においてタスク処理のスループット向上を期待できることがわかった．

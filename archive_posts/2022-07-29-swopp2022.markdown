@@ -1,0 +1,14 @@
+---
+layout: post
+title: "Fault-aware Hardware Scheduling of Computations in Deep Neural Networks" 
+date:   2022-07-29
+image: /images/swopp-2022-has.png
+categories: research
+author: "Shaswot Shresthamali"
+authors: <strong>Shaswot Shresthamali</strong>, Yuan He, Masaaki Kondo"
+venue: "研究報告システム・アーキテクチャ（ARC）, 2022-ARC-249(19), 1-8"
+link: http://id.nii.ac.jp/1001/00218900/
+slides: /pdfs/swopp-2022-slides.pdf
+code:
+---
+The idea of using inexact computation for overprovisioned DNNs (Deep Neural Networks) to extract power savings and performance gains at the cost of minor performance degradation has become very popular. However, there is still no general method to schedule the DNN computations on a given hardware platform to effectively implement this idea without loss in computational efficiency. Most contemporary methods require extensive retraining, specialized hardware and hardware-specific scheduling schemes. We present HAS: Hardware Agnostic Scheduler for scheduling DNN computations in heterogeneous and faulty hardware. Given a trained DNN model and a hardware fault profile, our scheduler is able to recover significant performance even at high fault rates. HAS schedules the computations such that the low priority ones are allocated to inexact hardware. Since most DNN computations are matrix multiplications, it achieves this by shuffling (exchanging) the rows of the matrices. The best shuffling order for a given DNN model and hardware faulty profile is determined using Genetic Algorithms (GA). We simulate bitwise errors on different model architectures and datasets with different types of fault profiles and observe that HAS can recover up to 30% of classification accuracy even at high fault rates (which correspond to approximately 50% power savings).
