@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "局所グラフ情報を用いた強化学習によるAGVの経路スケジューリング手法の検討 (A study of reinforcemtent learning-based AGV route scheduling using local graph information)"
+title:  "局所グラフ情報を用いた強化学習によるAGVの経路スケジューリング手法の検討 (A study of reinforcement learning-based AGV route scheduling using local graph information)"
 date:   2023-03-24
 image: /images/etnet-2023.png
 categories: research

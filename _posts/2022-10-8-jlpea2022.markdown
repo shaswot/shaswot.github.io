@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "Multi-Objective Resource Scheduling for IoT Systems Using Reinforcement Learning"
+date:   2022-10-08
+image: /images/jlpea-2022.png
+categories: research
+author: "Shaswot Shresthamali"
+authors: "<strong>Shaswot Shresthamali</strong>, Masaaki Kondo, and Hiroshi Nakamura"
+venue: "Journal of Low Power Electronics and Applications 12.4 (2022): 53" 
+link: https://doi.org/10.3390/jlpea12040053
+slides:
+paper: /pdfs/jlpea-2022-paper.pdf 
+video: 
+code:
+---
+IoT embedded systems have multiple objectives that need to be maximized simultaneously. These objectives conflict with each other due to limited resources and tradeoffs that need to be made. This requires multi-objective optimization (MOO) and multiple Pareto-optimal solutions are possible. In such a case, tradeoffs are made w.r.t. a user-defined preference. This work presents a general Multi-objective Reinforcement Learning (MORL) framework for MOO of IoT embedded systems. This framework comprises a general Multi-objective Markov Decision Process (MOMDP) formulation and two novel low-compute MORL algorithms. The algorithms learn policies to tradeoff between multiple objectives using a single preference parameter. We take the energy scheduling problem in general Energy Harvesting Wireless Sensor Nodes (EHWSNs) as a case example in which a sensor node is required to maximize its sensing rate, and transmission performance as well as ensure long-term uninterrupted operation within a very tight energy budget. We simulate single-task and dual-task EHWSN systems to evaluate our framework. The results demonstrate that our MORL algorithms can learn better policies at lower learning costs and successfully tradeoff between multiple objectives at runtime.
