@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Quantum Circuit Fidelity Improvement with Long Short-Term Memory Networks"
+date:   2023-03-30
+image: /images/arxiv-17523-qfid.png
+categories: research
+author: "Yikai Mao"
+authors: "Yikai Mao, <strong>Shaswot Shresthamali</strong>, Masaaki Kondo "
+venue: 
+link: https://arxiv.org/abs/2303.17523
+slides:
+code:
+---
+Quantum computing has entered the Noisy Intermediate-Scale Quantum (NISQ) era. Currently, the quantum processors we have are sensitive to environmental variables like radiation and temperature, thus producing noisy outputs. Although many proposed algorithms and applications exist for NISQ processors, we still face uncertainties when interpreting their noisy results. Specifically, how much confidence do we have in the quantum states we are picking as the output? This confidence is important since a NISQ computer will output a probability distribution of its qubit measurements, and it is sometimes hard to distinguish whether the distribution represents meaningful computation or just random noise. This paper presents a novel approach to attack this problem by framing quantum circuit fidelity prediction as a Time Series Forecasting problem, therefore making it possible to utilize the power of Long Short-Term Memory (LSTM) neural networks. A complete workflow to build the training circuit dataset and LSTM architecture is introduced, including an intuitive method of calculating the quantum circuit fidelity. The trained LSTM system, Q-fid, can predict the output fidelity of a quantum circuit running on a specific processor, without the need for any separate input of hardware calibration data or gate error rates. Evaluated on the QASMbench NISQ benchmark suite, Q-fid's prediction achieves an average RMSE of 0.0515, up to 24.7x more accurate than the default Qiskit transpile tool mapomatic. When used to find the high-fidelity circuit layouts from the available circuit transpilations, Q-fid predicts the fidelity for the top 10% layouts with an average RMSE of 0.0252, up to 32.8x more accurate than mapomatic.
