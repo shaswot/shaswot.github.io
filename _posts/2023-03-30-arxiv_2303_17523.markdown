@@ -5,8 +5,8 @@ date:   2023-03-30
 image: /images/arxiv-17523-qfid.png
 categories: research
 author: "Yikai Mao"
-authors: "Yikai Mao, <strong>Shaswot Shresthamali</strong>, Masaaki Kondo "
-venue: 
+authors: "Yikai Mao, <strong>Shaswot Shresthamali</strong>, Masaaki Kondo"
+venue: "arXiv" 
 link: https://arxiv.org/abs/2303.17523
 slides:
 code:
