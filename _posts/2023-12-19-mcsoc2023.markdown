@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "Enhancing Deep Reinforcement Learning with Compressed Sensing-based State Estimation"
+date:   2023-12-19
+image: /images/mcsoc-2023.png
+categories: research
+author: "Shaswot Shresthamali"
+authors: "<strong>Shaswot Shresthamali</strong>, and Masaaki Kondo"
+venue: "16th IEEE International Symposium on Embedded Multicore/Many-core Systems-on-Chip, MCSoC (2023)"
+link: 
+slides: /pdfs/mcsoc-2023-slides.pdf
+paper: /pdfs/mcsoc-2023-paper.pdf 
+video: 
+code:
+---
+In various real-world applications, sensor data collected for adaptive control using Reinforcement Learning (RL) often suffer from missing information due to sensor failures, data transmission errors, or other sources of noise. Such missing data can significantly hinder the agent's ability to make informed decisions and degrade performance. In this paper, we propose a novel approach to address this challenge by leveraging Compressed Sensing (CS) techniques to recover missing information from the sensor data and reconstruct the state observation. The reconstructed state is then fed to the RL agents. As a result, they exhibit enhanced robustness and intelligence, surpassing the performance achievable when solely presented with noisy data as state input.
