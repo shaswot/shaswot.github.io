@@ -7,7 +7,7 @@ categories: research
 author: "Shaswot Shresthamali"
 authors: "<strong>Shaswot Shresthamali</strong>, and Masaaki Kondo"
 venue: "16th IEEE International Symposium on Embedded Multicore/Many-core Systems-on-Chip, MCSoC (2023)"
-link: 
+link: https://www.computer.org/csdl/proceedings-article/mcsoc/2023/936100a371/1TMvKJ4bGxi 
 slides: /pdfs/mcsoc-2023-slides.pdf
 paper: /pdfs/mcsoc-2023-paper.pdf 
 video: 
