@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "DAISM: Digital Approximate In-SRAM Multiplier-based Accelerator for DNN Training and Inference (to be published)"
-date:   2023-11-12
+date:   2024-01-12
 image: /images/date-2024.png
 categories: research
 author: "Shaswot Shresthamali"

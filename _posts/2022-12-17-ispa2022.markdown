@@ -6,7 +6,7 @@ image: /images/ispa-2022.png
 categories: research
 author: "Shaswot Shresthamali"
 authors: "<strong>Shaswot Shresthamali</strong>, Yuan He, Masaaki Kondo"
-venue: "2022 IEEE Intl Conf on Parallel & Distributed Processing with Applications, Big Data & Cloud Computing, Sustainable Computing & Communications, Social Computing & Networking (ISPA/BDCloud/SocialCom/SustainCom)"
+venue: "2022 IEEE Intl Conf on Parallel & Distributed Processing with Applications (ISPA)"
 link: https://doi.org/10.1109/ISPA-BDCloud-SocialCom-SustainCom57177.2022.00033
 slides: /pdfs/ispa-2022-slides.pdf
 code:
