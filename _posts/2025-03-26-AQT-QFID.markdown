@@ -7,7 +7,7 @@ categories: research
 author: "Yikai Mao"
 authors: "Yikai Mao, <strong>Shaswot Shresthamali</strong>, Masaaki Kondo"
 venue: "Advanced Quantum Technologies" 
-paper: 
+paper: /pdfs/aqt-2025-paper.pdf
 arxiv: https://arxiv.org/abs/2303.17523
 link : https://doi.org/10.1002/qute.202500022 
 slides:
