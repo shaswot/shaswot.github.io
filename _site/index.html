@@ -68,10 +68,10 @@
             <td style="padding:2.5%;width:100%;vertical-align:middle">
               <h2>Research</h2>
               <p>
-		I am currently researching on novel architectures suitable for machine learning in nanowire-based devices. 
+		I currently conduct research in the fields of quantum computing and artificial intelligence. In quantum computing, I focus on developing quantum systems based on superconducting qubits. In artificial intelligence, my work explores architectural optimizations for reinforcement learning.
 	      </p>
 	      <p>
-	      My previous researches focused on machine learning models that are robust to noise,  deep learning accelerators and quantum computing.
+	      My previous researches focused on noise robust machine learning (ML) models, deep learning accelerators and ML solutions for quantum computing.
 	      </p>
 
 	      <p>
@@ -110,26 +110,61 @@
           
           <tr>
             <td style="padding:2.5%;width:40%;vertical-align:middle;min-width:120px">
+              <img src="/images/arxiv-17523-qfid.png" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+            </td>
+            <td style="padding:2.5%;width:75%;vertical-align:middle">
+              <h3>Q-fid: Quantum Circuit Fidelity Improvement with LSTM Networks</h3>
+              <br>
+              Yikai Mao, <strong>Shaswot Shresthamali</strong>, Masaaki Kondo
+
+              <br>
+              <em>Advanced Quantum Technologies</em>, 2025
+              <br>
+              
+              <a href="https://arxiv.org/abs/2303.17523">arxiv</a> /
+              
+              
+              <a href="https://doi.org/10.1002/qute.202500022">link</a> /
+              
+              
+              
+              
+              
+              
+              <p></p>
+              <p>The fidelity of quantum circuits is influenced by several factors, including hardware characteristics, calibration status, and the transpilation process, all of which impact their susceptibility to noise. However, existing methods struggle to estimate and compare the noise performance of different circuit layouts due to fluctuating error rates and the absence of a standardized fidelity metric. In this work, we introduce Q-fid, a Long Short-Term Memory (LSTM) based fidelity prediction system accompanied by a novel metric designed to quantify the fidelity of quantum circuits. Q-fid provides an intuitive way to predict the noise performance of NISQ quantum circuits. Our approach frames fidelity prediction as a Time Series Forecasting problem to analyze the tokenized circuits, capturing the causal dependence of the gate sequences and their impact on overall fidelity. Additionally, the model is capable of dynamically adapting to changes in hardware characteristics, ensuring accurate fidelity predictions under varying conditions. Q-fid achieves a high prediction accuracy with an average RMSE of 0.0515, up to 24.7× more accurate than the Qiskit transpile tool mapomatic. By offering a reliable method for fidelity prediction, Q-fid empowers developers to optimize transpilation strategies, leadingto more efficient and noise-resilient quantum circuit implementations.</p>
+
+            </td>
+          </tr>
+          
+          
+          
+          
+          
+          <tr>
+            <td style="padding:2.5%;width:40%;vertical-align:middle;min-width:120px">
               <img src="/images/date-2024.png" alt="project image" style="width:auto; height:auto; max-width:100%;" />
             </td>
             <td style="padding:2.5%;width:75%;vertical-align:middle">
               <h3>DAISM: Digital Approximate In-SRAM Multiplier-based Accelerator for DNN Training and Inference (to be published)</h3>
               <br>
-              Lorenzo Sonnino, "<strong>Shaswot Shresthamali</strong>, Yuan He, and Masaaki Kondo"
+              Lorenzo Sonnino, <strong>Shaswot Shresthamali</strong>, Yuan He, and Masaaki Kondo
 
               <br>
               <em>2024 Design, Automation and Test in Europe Conference (DATE 2024)</em>, 2024
               <br>
               
-              
-              <a href="https://arxiv.org/abs/2305.07376">link</a> /
-              
+              <a href="https://arxiv.org/abs/2305.07376">arxiv</a> /
               
               
+              <a href="https://doi.org/10.23919/DATE58400.2024.10546578">link</a> /
               
               
               
-              <a href="https://arxiv.org/abs/2305.07376">paper</a> /
+              
+              
+              
+              <a href="/pdfs/date-2025-paper.pdf">paper</a> /
               
               <p></p>
               <p>DNNs are widely used but face significant computational costs due to matrix multiplications, especially from data movement between the memory and processing units. One promising approach is therefore Processing-in-Memory as it greatly reduces this overhead. However, most PIM solutions rely either on novel memory technologies that have yet to mature or bit-serial computations that have significant performance overhead and scalability issues. Our work proposes an in-SRAM digital multiplier, that uses a conventional memory to perform bit-parallel computations, leveraging multiple wordlines activation. We then introduce DAISM, an architecture leveraging this multiplier, which achieves up to two orders of magnitude higher area efficiency compared to the SOTA counterparts, with competitive energy efficiency.</p>
@@ -168,37 +203,6 @@
               
               <p></p>
               <p>In various real-world applications, sensor data collected for adaptive control using Reinforcement Learning (RL) often suffer from missing information due to sensor failures, data transmission errors, or other sources of noise. Such missing data can significantly hinder the agent’s ability to make informed decisions and degrade performance. In this paper, we propose a novel approach to address this challenge by leveraging Compressed Sensing (CS) techniques to recover missing information from the sensor data and reconstruct the state observation. The reconstructed state is then fed to the RL agents. As a result, they exhibit enhanced robustness and intelligence, surpassing the performance achievable when solely presented with noisy data as state input.</p>
-
-            </td>
-          </tr>
-          
-          
-          
-          
-          
-          <tr>
-            <td style="padding:2.5%;width:40%;vertical-align:middle;min-width:120px">
-              <img src="/images/arxiv-17523-qfid.png" alt="project image" style="width:auto; height:auto; max-width:100%;" />
-            </td>
-            <td style="padding:2.5%;width:75%;vertical-align:middle">
-              <h3>Quantum Circuit Fidelity Improvement with Long Short-Term Memory Networks</h3>
-              <br>
-              Yikai Mao, <strong>Shaswot Shresthamali</strong>, Masaaki Kondo
-
-              <br>
-              <em>arXiv</em>, 2023
-              <br>
-              
-              
-              <a href="https://arxiv.org/abs/2303.17523">link</a> /
-              
-              
-              
-              
-              
-              
-              <p></p>
-              <p>Quantum computing has entered the Noisy Intermediate-Scale Quantum (NISQ) era. Currently, the quantum processors we have are sensitive to environmental variables like radiation and temperature, thus producing noisy outputs. Although many proposed algorithms and applications exist for NISQ processors, we still face uncertainties when interpreting their noisy results. Specifically, how much confidence do we have in the quantum states we are picking as the output? This confidence is important since a NISQ computer will output a probability distribution of its qubit measurements, and it is sometimes hard to distinguish whether the distribution represents meaningful computation or just random noise. This paper presents a novel approach to attack this problem by framing quantum circuit fidelity prediction as a Time Series Forecasting problem, therefore making it possible to utilize the power of Long Short-Term Memory (LSTM) neural networks. A complete workflow to build the training circuit dataset and LSTM architecture is introduced, including an intuitive method of calculating the quantum circuit fidelity. The trained LSTM system, Q-fid, can predict the output fidelity of a quantum circuit running on a specific processor, without the need for any separate input of hardware calibration data or gate error rates. Evaluated on the QASMbench NISQ benchmark suite, Q-fid’s prediction achieves an average RMSE of 0.0515, up to 24.7x more accurate than the default Qiskit transpile tool mapomatic. When used to find the high-fidelity circuit layouts from the available circuit transpilations, Q-fid predicts the fidelity for the top 10% layouts with an average RMSE of 0.0252, up to 32.8x more accurate than mapomatic.</p>
 
             </td>
           </tr>

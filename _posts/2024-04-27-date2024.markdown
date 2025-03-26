@@ -5,11 +5,12 @@ date:   2024-01-12
 image: /images/date-2024.png
 categories: research
 author: "Shaswot Shresthamali"
-authors: Lorenzo Sonnino, "<strong>Shaswot Shresthamali</strong>, Yuan He, and Masaaki Kondo"
+authors: Lorenzo Sonnino, <strong>Shaswot Shresthamali</strong>, Yuan He, and Masaaki Kondo
 venue: "2024 Design, Automation and Test in Europe Conference (DATE 2024)"
-link: https://arxiv.org/abs/2305.07376
+arxiv: https://arxiv.org/abs/2305.07376
+link: https://doi.org/10.23919/DATE58400.2024.10546578
 slides:
-paper: https://arxiv.org/abs/2305.07376
+paper: /pdfs/date-2025-paper.pdf 
 video: 
 code:
 ---
