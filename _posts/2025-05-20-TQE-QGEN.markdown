@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "Q-gen: A Parameterized Quantum Circuit Generator"
+date:   2025-05-20
+image: /images/tqe-qgen.png
+categories: research
+author: "Yikai Mao"
+authors: "Yikai Mao, <strong>Shaswot Shresthamali</strong>, Masaaki Kondo"
+venue: "IEEE Transactions on Quantum Engineering" 
+paper: 
+arxiv: https://arxiv.org/abs/2407.18697
+link : https://doi.org/10.1109/TQE.2025.3572142
+slides:
+code:
+---
+Unlike most classical algorithms that take an input and give the solution directly as an output, quantum algorithms produce a quantum circuit that works as an indirect solution to computationally hard problems. In the full quantum computing workflow, most data processing remains in the classical domain except for running the quantum circuit in the quantum processor. This leaves massive opportunities for classical automation and optimization toward future utilization of quantum computing. We kickstart the first step in this direction by introducing Q-gen, a high-level, parameterized quantum circuit generator incorporating 15 realistic quantum algorithms. Each customized generation function comes with algorithmspecific parameters beyond the number of qubits, providing a large generation volume with high circuit variability. To demonstrate the functionality of Q-gen, we organize the algorithms into 5 hierarchical systems and generate a quantum circuit dataset accompanied by their measurement histograms and state vectors. This dataset enables researchers to statistically analyze the structure, complexity, and performance of large-scale quantum circuits, or quickly train novel machine learning models without worrying about the exponentially growing simulation time. Q-gen is an open-source and multipurpose project that serves as the entrance for users with a classical computer science background to dive into the world of quantum computing.
