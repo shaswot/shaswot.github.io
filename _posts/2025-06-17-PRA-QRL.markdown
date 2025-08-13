@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "Quantum framework for reinforcement learning: Integrating the Markov decision process, quantum arithmetic, and trajectory search"
+date:   2025-06-17
+image: /images/pra-qrl.png
+categories: research
+author: "Thet Htar Su"
+authors: "Thet Htar Su, <strong>Shaswot Shresthamali</strong>, Masaaki Kondo"
+venue: "Physical Review A" 
+paper: /pdfs/pra-2025-paper.pdf
+arxiv: https://arxiv.org/abs/2412.18208
+link : https://doi.org/10.1103/5lfr-xb8m
+slides:
+code:
+---
+This paper introduces a quantum framework for addressing reinforcement learning (RL) tasks, grounded in the quantum principles and leveraging a fully quantum model of the classical Markov decision process (MDP). By employing quantum concepts and a quantum search algorithm, this work presents the implementation and optimization of the agent-environment interactions entirely within the quantum domain, eliminating reliance on classical computations. Key contributions include the quantum-based state transitions, return calculation, and trajectory search mechanism that utilize quantum principles to demonstrate the realization of RL processes through quantum phenomena. The implementation emphasizes the fundamental role of quantum superposition in enhancing computational efficiency for RL tasks. Results demonstrate the capacity of a quantum model to achieve quantum enhancement in RL, highlighting the potential of fully quantum implementations in decision-making tasks. This work not only underscores the applicability of quantum computing in machine learning but also contributes to the field of quantum reinforcement learning (QRL) by offering a robust framework for understanding and exploiting quantum computing in RL systems.

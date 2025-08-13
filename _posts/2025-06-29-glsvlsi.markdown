@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "EATS: Energy-Aware Adaptive Topology Switching for NoCs"
+date:   2025-06-29
+image: /images/glsvlsi-2025.png
+categories: research
+author: "Man Wu"
+authors: "Man Wu, <strong>Shaswot Shresthamali</strong>, Xiaoman Liu, Yuan He"
+venue: "2025 Great Lakes Symposium on VLSI 2025" 
+paper: /pdfs/glsvlsi-2025-paper.pdf
+poster: /pdfs/glsvlsi-2025-poster.pdf
+arxiv: 
+link : https://doi.org/10.1145/3716368.3735175
+slides:
+code:
+---
+The topology of a Network-on-Chip (NoC) plays a critical role in determining both its performance and power consumption. By adapting the topology to match application-specific communication demands, it is possible to improve the energy efficiency of the system. In this work, we present EATS (Energy-aware Adaptive Topology Switching), a runtime framework that dynamically reconfigures the on-chip network among multiple topologies to optimize energy usage. EATS integrates two decision engines: (i) a lightweight threshold-based heuristic controller, and (ii) a low-overhead, adaptive learning-based controller. Experimental results demonstrate that EATS can reduce NoC energy consumption by up to 47%.
