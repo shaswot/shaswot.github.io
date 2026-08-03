@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "Scalable Quantum Reinforcement Learning on NISQ Devices with Dynamic-Circuit Qubit Reuse and Grover Optimization"
+date:   2025-09-19
+image: /images/sqrl.png
+categories: research
+author: "Thet Htar Su"
+authors: "Thet Htar Su, <strong>Shaswot Shresthamali</strong>, Masaaki Kondo"
+venue: 
+paper: 
+arxiv: https://arxiv.org/abs/2509.16002
+link : 
+slides:
+code:
+---
+A scalable and resource-efficient quantum reinforcement learning framework is presented that eliminates the linear qubit-scaling barrier in multi-step quantum Markov decision processes (QMDPs). The proposed framework integrates a QMDP formulation, dynamic-circuit execution, and Grover-based amplitude amplification into a unified quantum-native architecture. Environment dynamics are encoded entirely within quantum Hilbert space, enabling coherent superposition over state-action sequences and a direct quantum agent-environment interface without intermediate quantum-to-classical conversion. The central contribution is a dynamic execution model for multi-step QMDPs that employs mid-circuit measurement and reset to recycle a fixed physical quantum register across sequential interactions. This approach preserves trajectory fidelity relative to a static unrolled QMDP, generating identical state-action sequences while reducing the physical qubit requirement from 7xT to a constant 7, independent of the interaction horizon T. Thus, the qubit complexity of multi-step QMDPs is transformed from O(T) to O(1) while maintaining functional equivalence at the level of trajectory generation. Trajectory returns are evaluated via quantum arithmetic, and high-return trajectories are marked and amplified using amplitude amplification to increase their sampling probability. Simulations confirm preservation of trajectory fidelity with a 66% qubit reduction compared to a static design. Experimental execution on an IBM Heron-class processor demonstrates feasibility on noisy intermediate-scale quantum hardware, establishing a scalable and resource-efficient foundation for large-scale quantum-native reinforcement learning.
