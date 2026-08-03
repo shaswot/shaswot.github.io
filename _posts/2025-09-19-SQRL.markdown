@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Scalable Quantum Reinforcement Learning on NISQ Devices with Dynamic-Circuit Qubit Reuse and Grover Optimization"
-date:   2025-09-19
+date:
 image: /images/sqrl.png
 categories: research
 author: "Thet Htar Su"
