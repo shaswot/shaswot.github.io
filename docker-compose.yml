@@ -9,12 +9,11 @@ services:
       - "4000:4000"
       - "35729:35729"
     volumes:
-      # Binds your current local directory to /site in the container
+      # Binds current local directory to /site in the container
       - ./:/site
-    # Installs missing gems and starts the server
+    # Starts the server
     # --host 0.0.0.0 is strictly required in Docker so the port is accessible externally
     # --force_polling ensures Jekyll detects file saves across the Docker volume boundary
     # --livereload automatically refreshes your browser when you save a file
     command: >
-      bash -c "bundle install && 
-               bundle exec jekyll serve --host 0.0.0.0 --livereload --force_polling"
+      bash -c "bundle exec jekyll serve --host 0.0.0.0 --livereload --force_polling"

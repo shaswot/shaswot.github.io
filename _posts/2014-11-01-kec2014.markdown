@@ -5,6 +5,7 @@ date:   2014-11-01
 image: /images/kec-2014.png
 categories: research
 author: "Shaswot Shresthamali"
+authors: "Shaswot Shresthamali"
 venue: "KEC Journal of Science and Engineering (November 2014)"
 link: /pdfs/kec-2014.pdf
 paper: /pdfs/kec-2014.pdf
